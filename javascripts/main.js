@@ -35,8 +35,8 @@ button.onclick = function chooseArea () {
 https://kids.usa.gov 
 http://kids.nationalgeographic.com/");
 	var links8 = document.createTextNode("<a href="http://www.prestoexperts.com/lp/tutoring3/?banid=1227064"> Expersts and tutors.</a>
-  <a href="http://www.learningfarm.com/web/tour.cfm"</a>
-  <a href="https://www.ixl.com/math/grade-8"</a>
+  <a href="http://www.learningfarm.com/web/tour.cfm">Math and Reading </a>
+  <a href="https://www.ixl.com/math/grade-8">Learning Math</a>
 ");
 	//link text to DOM node
 	links1.appendChild(games);
