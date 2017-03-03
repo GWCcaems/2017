@@ -1,7 +1,7 @@
 html{height:100%;}
 body {
 background:#0D343A;
-background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+background:-webkit-gradient(linear,0% 0%,0% 100%, from(#3BB9FF) ), to(#000000)  );
 background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(0,0,0,1) 100%);
 
 overflow:hidden;}
