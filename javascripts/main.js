@@ -31,13 +31,14 @@ button.onclick = function chooseArea () {
   <a href="http://mathandreadinghelp.org/kids_games/index.html">Math and Reading games</a>
 <a href="http://www.factmonster.com/homework/social-studies-united-states.html">Factory Monster Social Studies</a>
 ");
-	var links7 = document.createTextNode("<a href="http://www.prestoexperts.com/"> Experts and Tutours around the clock. </a>
-https://kids.usa.gov 
-http://kids.nationalgeographic.com/");
-	var links8 = document.createTextNode("<a href="http://www.prestoexperts.com/lp/tutoring3/?banid=1227064"> Expersts and tutors.</a>
+	<a href="var links7 = document.createTextNode("<a href="http://www.prestoexperts.com/"> Experts and Tutours around the clock. </a>
+<a href="https://kids.usa.gov">   </a>
+<a hraf="http://kids.nationalgeographic.com/");    </a>
+	<a href="var links8 = document.createTextNode("<a href="http://www.prestoexperts.com/lp/tutoring3/?banid=1227064"> Expersts and tutors.</a>
   <a href="http://www.learningfarm.com/web/tour.cfm">Math and Reading </a>
-  <a href="https://www.ixl.com/math/grade-8">Learning Math</a>
-");
+  <a href="https://www.ixl.com/math/grade-8">Learning Math</a>");
+					     
+					     
 	//link text to DOM node
 	links1.appendChild(games);
 	links2.appendChild(study);
