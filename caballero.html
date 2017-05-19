@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</HEAD>
+<body>
+<div id="title">Add a word to the activity by typing it into the box, then clicking 'Add.'</div>
+
+<div id="entry"><input type="text" name="rando" value=""><br></div>
+
+<div id="add" class="button">Add</div>
+
+<div id="random" class="button">Display Random</div>
+
+<div id="word">The random word is:</div>
+
+<script>
+$(document).ready(); {
+  var wordList = [];
+  var randomItem = Math.floor(Math.random() * wordList.length);
+  $('#add').on('click', function() {
+    wordList.push();
+  });
+  $('#random').on('click', function() {
+    var currentWord = wordList[randomItem];
+    $('#word').text(currentWord);
+}
+</script>
+
+</body>
