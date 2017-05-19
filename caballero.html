@@ -39,9 +39,9 @@
 $(document).ready(); {
   var wordList = [];
   var randomItem = Math.floor(Math.random() * wordList.length);
-  $('#add').on('click', function() {
+  $('#add').on('click', function addTo() {
     var answer = this.value;
-    wordList.push(answer);
+    wordList.push(document.getElementById("input").value);
     console.log(wordList);
   });
   $('#random').on('click', function() {
