@@ -25,6 +25,7 @@
 </style>
 </head>
 <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
 var x = 0;
 var array = [];
@@ -45,11 +46,11 @@ function display_array()  {
     document.getElementById("Result").innerHTML = e;
  };
 </script>
-  <div id="headline"> Type words into the box, then click add to add them to the list.</div>
+<div id="headline"> Type words into the box, then click add to add them to the list.</div>
 <input type="text" id="text1"> </input>
 <input type="button" id="button1" value="Add" onclick="add_element_to_array();"> </input>
 <input type="button" id="button2" value="Display" onclick="display_array();"> </input>
 <div id="Result"></div> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 </body>
