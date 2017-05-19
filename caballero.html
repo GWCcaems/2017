@@ -18,6 +18,10 @@
   font-weight: bold;
   padding: 70px;
   }
+.user {
+  padding: 70px
+  text-align: center;
+  }
 </style>
 </head>
 <body>
@@ -28,7 +32,6 @@ var array = [];
 
 function add_element_to_array()  {
     array[x] = document.getElementById("text1").value;
-    alert("Element: " + array[x] + " Added at index " + x);
     x++;
     document.getElementById("text1").value = "";
   };
@@ -48,9 +51,11 @@ function display_rando() {
 </script>
 <div id="headline"> Type words into the box, then click add to add them to the list.</div>
 
-  <div padding="70px"><input type="text" id="text1"> </input>
+  <div class="user">
+<input type="text" id="text1"> </input>
 <input type="button" id="button1" value="Add" onclick="add_element_to_array();"> </input>
-  <input type="button" id="button2" value="Display" onclick="display_rando();"> </input></div>
+<input type="button" id="button2" value="Display" onclick="display_rando();"> </input>
+</div>
 
 <div id="Result"></div> 
 
