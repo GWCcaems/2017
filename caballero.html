@@ -42,6 +42,7 @@ $(document).ready(); {
   $('#add').on('click', function() {
     var answer = this.value;
     wordList.push(answer);
+    console.log(wordList);
   });
   $('#random').on('click', function() {
     var currentWord = wordList[randomItem];
