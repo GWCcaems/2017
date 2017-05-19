@@ -27,7 +27,7 @@
 <body>
 <div id="title">Add a word to the activity by typing it into the box, then clicking 'Add.'</div>
 
-<div id="entry"><input type="text" name="rando" value=""><br></div>
+<div id="entry">Words to add: <input type="text" name="rando" value=""><br></div>
 
 <div id="add" class="button">Add</div>
 
@@ -46,6 +46,19 @@ $(document).ready(); {
     var currentWord = wordList[randomItem];
     $('#word').text(currentWord);
 }
+var answerArray = [];
+(function () {
+    var elements = document.getElementsByTagName('input'),
+        answersDiv = document.getElementById('answers'),
+        addFunction = function () {
+            var answer = this.value;
+            answerArray.push(answer);
+            answersDiv.innerHTML = answerArray.toString();
+        };
+    for (var i in elements) {
+        elements[i].addEventListener('blur', addFunction);
+    }    
+}());
 </script>
 
 </body>
