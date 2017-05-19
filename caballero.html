@@ -40,7 +40,7 @@ $(document).ready(); {
   var wordList = [];
   var randomItem = Math.floor(Math.random() * wordList.length);
   $('#add').on('click', function() {
-    wordList.push(rando);
+    wordList.push(document.getElementsByTagName('input'));
   });
   $('#random').on('click', function() {
     var currentWord = wordList[randomItem];
