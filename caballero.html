@@ -27,20 +27,19 @@
 <body>
 <div id="title">Add a word to the activity by typing it into the box, then clicking 'Add.'</div>
 
-  <div id="entry">Words to add: <input type="text" name="rando" value=" ">  </input><br></div>
+  <div id="entry">Words to add: <input type="text" name="rando" value=" ">  <br></div>
 
 <div id="add" class="button">Add</div>
 
 <div id="random" class="button">Display Random</div>
 
 <div id="word">The random word is:</div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(); {
   var wordList = [];
   var randomItem = Math.floor(Math.random() * wordList.length);
   $('#add').on('click', function addTo() {
-    var answer = this.value;
     wordList.push(document.getElementById("input").value);
     console.log(wordList);
   });
