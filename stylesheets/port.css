@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(194, 194, 163);
+}
+.bar {
+  background-color: rgb(153, 0, 153);
+  height: 75px;
+  border: solid 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 2px;
+  padding: 12px;
+	z-index: +1;
+}
+.bottom-bar {
+  background-color: rgb(75, 0, 75);
+	color: white;
+  height: 75px;
+  border: solid 2px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 2px;
+  padding: 20px;
+}
+h3 {
+  font-family: 'Bellefair'; 
+  font-size: 35px;
+}
+.shadow {
+-moz-box-shadow: 0 0 30px 5px #999;
+-webkit-box-shadow: 0 0 30px 5px #999;
+}
+.info {
+  width: 65%;
+  font-family: 'Zilla Slab';
+  font-size: 20px;
+  padding: 25px;
+  margin: auto;
+  border: solid 1px;
+  text-align: center;
+  display: block;
+  float: center;
+  background-color: rgb(246, 246, 238);
+}
+.button {
+  border-radius: 4px;
+  background-color: rgb(77, 0, 77);
+  font-family: 'Bellefair';
+  font-size: 20px;
+  color: white;
+  border: 2px white;
+}
+#about {
+  padding: 50px;
+  
+}
+.port-row{
+  width: 100%;
+}
+.port-item{
+  width: 33%;
+}
+.portfolio-img {
+  width: 100px;
+  height: 100px;
+  border: 2px white;
+}
+#contact{
+  text-align: center;
+}
