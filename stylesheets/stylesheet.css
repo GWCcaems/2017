@@ -6,8 +6,9 @@ h1 {
   font-size: 40px;
 }
 
-text {
-  
+p {
+  font-size: 20px;
+  color: #251599;
 }
 * {box-sizing: border-box;}
 .wrapper {
