@@ -12,7 +12,7 @@ p {
 }
 * {box-sizing: border-box;}
 .wrapper {
-  max-width: 940px;
+  max-width: 30%;
   margin: 0 auto;
 }
 
