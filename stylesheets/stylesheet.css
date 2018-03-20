@@ -16,6 +16,16 @@ p {
   max-width: 90%;
   margin: 0 auto;
 }
+.button{
+  border-radius: 4px;
+  background-color: #00997d;
+  font-family: 'Bellefair';
+  font-size: 20px;
+  color: white;
+  border: 3px #00332a;
+  padding: 20px;
+  display: inline-block;
+}
 
 .wrapper > div {
   border: 2px solid rgb(233,171,88);
