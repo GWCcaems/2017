@@ -13,10 +13,11 @@ h1 {
     background-color:#8dabfc;
     font-family: 'Bellefair';
     font-size: 20px;
-    color: teal  ;
+    color: white;
     border: 3px #00332a;
     padding: 20px;
     display: inline-block;
+    text-decoration:none
 }
 p {
  font-size: 20px;
